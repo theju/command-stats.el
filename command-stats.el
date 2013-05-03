@@ -87,4 +87,6 @@ where the commands statistics are stored"
 
 (add-hook 'kill-emacs-hook 'save-file-hook)
 
+(provide 'command-stats)
+
 ;;; command-stats.el ends here
